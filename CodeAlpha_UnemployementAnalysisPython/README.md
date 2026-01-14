@@ -32,3 +32,10 @@ It focuses on trends, regional differences, and the impact of Covid-19.
 - Certain regions such as Tripura were more affected.
 - A sharp increase in unemployment was observed during the Covid-19 period.
 - Urban unemployment increased more rapidly than rural unemployment during Covid-19.
+
+## 🏛️ Conclusions
+
+- Covid-19 had a significant impact on unemployment in India.
+- Urban areas were more vulnerable to job losses during the pandemic.
+- Emergency employment and job recovery programs are essential during economic shocks.
+- Strengthening rural employment schemes can help reduce unemployment risks.
