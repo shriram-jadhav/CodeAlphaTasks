@@ -19,3 +19,8 @@ It focuses on trends, regional differences, and the impact of Covid-19.
 - Seaborn
 - Jupyter Notebook
 
+## 📂 Dataset
+
+- Dataset contains unemployment data across Indian regions
+- File used: `Unemployment in India.csv`
+- Data includes unemployment rate, employment, and labour participation rate
