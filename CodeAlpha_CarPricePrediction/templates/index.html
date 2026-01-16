@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Car Price Prediction</h2>
+
+        <form action="/predict" method="post">
+
+            <label>Year</label>
+            <input type="number" name="year" required>
+
+            <label>Present Price (in Lakhs)</label>
+            <input type="number" step="0.01" name="present_price" required>
+
+            <label>Driven Kilometers</label>
+            <input type="number" name="kms_driven" required>
+
+            <label>Owner (0,1,2)</label>
+            <input type="number" name="owner" min="0" max="2" required>
+
+            <label>Fuel Type</label>
+            <div class="radio-group">
+                <input type="radio" name="fuel_type" value="Petrol" required> Petrol
+                <input type="radio" name="fuel_type" value="Diesel"> Diesel
+            </div>
+
+            <label>Seller Type</label>
+            <div class="radio-group">
+                <input type="radio" name="seller_type" value="Individual" required> Individual
+                <input type="radio" name="seller_type" value="Dealer"> Dealer
+            </div>
+
+            <label>Transmission</label>
+            <div class="radio-group">
+                <input type="radio" name="transmission" value="Manual" required> Manual
+                <input type="radio" name="transmission" value="Automatic"> Automatic
+            </div>
+
+            <button type="submit">Predict Price</button>
+
+        </form>
+
+        {% if prediction_text %}
+            <h3>{{ prediction_text }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
