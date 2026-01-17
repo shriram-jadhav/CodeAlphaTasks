@@ -45,9 +45,3 @@ The model is deployed using Flask.
 Users can input car details through a web form and get an instant price prediction.
 
 ---
-
-## ▶️ How to Run the Project
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/CarPricePrediction.git
